@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Hz~:]9ilKSCw6Si6:7Kk" x="20" y="20"><statement name="HANDLER"><block type="radio_set_group" id="0/nDMN=*rMYT$kI@h$ip"><value name="ID"><shadow type="math_number_minmax" id="w![D1bD9ht:V)Tms|`3F"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">42</field></shadow></value></block></statement></block><block type="radio_on_number_drag" id=";:/].G{Om(@t@t242qLV" x="359" y="23"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id="jm^|3jBytk[HOIQVT!HX"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="controls_if" id="U-nPIs_kac0Y]iR.WrZR"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="3U:T(C5RU9XcJ|L1pG-H"><field name="OP">EQ</field><value name="A"><shadow type="text" disabled="true"><field name="TEXT"></field></shadow><block type="argument_reporter_number" id="K4l=u7G6O/b8J*MP,mw1"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="text" disabled="true"><field name="TEXT"></field></shadow><block type="math_number" id="/kWqzDHU3@)}@6Qu[MW1"><field name="NUM">1</field></block></value></block></value><statement name="DO0"><block type="controls_repeat_ext" id="ibG2|i5rce3HHT8p*yOn"><value name="TIMES"><shadow type="math_whole_number" id="DtB6`A-P^GAEF.}o{=gG"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="Slp~#*aJ^;EXSgMm0,!v"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="r7|{rMKXXq[f.;cOE60?"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="?PG`*o=Rm}V/:e!aWzQ!"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></next></block></next></block></statement></block></statement><statement name="ELSE"><block type="device_clear_display" id="Ne)u%9e}$2cw16YPcKWR"></block></statement></block></statement></block><block type="basic_show_icon" id="uSnsVHsL|U5?9;*fIOm/" disabled="true" x="422" y="724"><field name="i">IconNames.Heart</field></block></xml>
